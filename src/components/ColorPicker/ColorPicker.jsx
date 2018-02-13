@@ -8,5 +8,4 @@ const ColorPicker = (props) => {
     );
 };
 
-
 export default ColorPicker;

@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Gameboard from './components/Gameboard/Gameboard';
-import ColorPicker from './components/ColorPicker/ColorPicker'
+import ColorPicker from './components/ColorPicker/ColorPicker';
+import NewGameButton from './components/NewGameButton/NewGameButton';
+import ScoreButton from './components/ScoreButton/ScoreButton';
 
 class App extends Component {
   render() {
@@ -13,6 +15,8 @@ class App extends Component {
           </header>
           <Gameboard />
           <ColorPicker />
+          <NewGameButton />
+          <ScoreButton />
         </div>
     );
   }
